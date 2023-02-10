@@ -26,4 +26,4 @@ Point your browser to https://localhost. Will need to trust the self-signed cert
 ## References
 - https://quic.nginx.org/
 - https://risaksson.com/post/9/2022-05-10/HTTP3-with-NGINX
-- https://www.nginx.com/blog/introducing-technology-preview-nginx-support-for-quic-http-3/?amp=1
+- https://www.nginx.com/blog/introducing-technology-preview-nginx-support-for-quic-http-3/
