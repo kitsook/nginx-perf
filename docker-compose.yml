@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  nginx-http3:
+    build:
+      context: .
+      dockerfile: Dockerfile-ngix
+    restart: always
+    volumes:
+      - ./persist/nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./persist/certs:/certs:ro
+    ports:
+      - "80:80"
+      - "443:443/tcp"
+      - "443:443/udp"
