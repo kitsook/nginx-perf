@@ -20,7 +20,7 @@ make certificates
 docker-compose up -d
 ```
 
-Point your browser to https://localhost. Will need to trust the self-signed certificate.
+Point your browser to https://localhost. Will need to trust the dummy certificate.
 
 
 ## References
